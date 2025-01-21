@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/rectangle_3"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="#D9D9D9" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nisarg_soni"
+                android:textColor="#4A4A4A"
+                android:textSize="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="110dp"
+                android:textAppearance="@style/nisarg_soni"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/minutes_ago"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="110dp"
+                android:text="@string/minutes_ago"
+                android:textColor="#4A4A4A"
+                android:textAppearance="@style/minutes_ago"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/some_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/some_id"
+                android:textColor="#4A4A4A"
+                android:textSize="25dp"
+                android:layout_marginLeft="215dp"
+                android:layout_marginTop="-32dp"
+                android:textAppearance="@style/some_id"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="-20dp"
+                android:text="@string/min"
+                android:textColor="#4A4A4A"
+                android:textSize="15dp"
+                android:textAppearance="@style/min"
+                android:gravity="top"
+                />
+
+            <ImageView
+                android:id="@+id/profileimg"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-60dp"
+                android:src="@drawable/yash"
+                android:background="@drawable/round_corner" />
+
+            <TextView
+                android:id="@+id/the_art_of_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:text="@string/the_art_of_"
+                android:textAppearance="@style/the_art_of_"
+                android:textColor="#4A4A4A"
+                android:lineSpacingExtra="1sp"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:translationY="-0.49sp"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/the_art_of_2"
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:textSize="16dp"
+                android:textColor="#4A4A4A"
+                android:layout_marginTop="10dp"
+                android:text="@string/the_art_of_2"
+                android:textAppearance="@style/the_art_of_2"
+                android:gravity="top"
+                />
+
+            <View
+                android:id="@+id/vector_2"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/vector_1"/>
+
+            <ImageView
+                android:id="@+id/heart"
+                android:layout_width="23dp"
+                android:layout_height="27dp"
+                android:layout_gravity="start"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="19dp"
+                android:clickable="true"
+                android:src="@drawable/heart_2"/>
+
+            <ImageView
+                android:id="@+id/eye"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start"
+                android:layout_marginTop="-28dp"
+                android:layout_marginLeft="80dp"
+                android:clickable="true"
+                android:src="@drawable/eye"/>
+
+            <ImageView
+                android:id="@+id/msg"
+                android:layout_width="23dp"
+                android:layout_height="27dp"
+                android:layout_gravity="start"
+                android:layout_marginTop="-27dp"
+                android:layout_marginLeft="150dp"
+                android:clickable="true"
+                android:src="@drawable/img_20"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>

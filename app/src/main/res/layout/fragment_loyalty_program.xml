@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/loyalty_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loyalty details"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#4A4A4A"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Loyalty Points Overview -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#F7B8B5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/total_points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Points: 200"
+                    android:textSize="16sp"
+                    android:textColor="#4A4A4A"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/redeemable_points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Redeemable Points: 150"
+                    android:textSize="16sp"
+                    android:textColor="#4A4A4A" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Recent Activity -->
+        <TextView
+            android:id="@+id/recent_activity_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recent Activity"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#4A4A4A"
+            android:layout_marginBottom="8dp" />
+
+        <!-- List of Activities -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Purchased Gold Necklace - Earned 50 points"
+                android:textSize="14sp"
+                android:textColor="#4A4A4A"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Signed up for Loyalty Program - Earned 100 points"
+                android:textSize="14sp"
+                android:textColor="#4A4A4A"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Redeemed 30 points for a discount"
+                android:textSize="14sp"
+                android:textColor="#4A4A4A" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

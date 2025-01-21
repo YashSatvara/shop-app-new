@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="412dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#F7B8B5"/>
+
+    <ImageView
+        android:id="@+id/back1"
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:background="@drawable/back_icon3"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New post"
+        android:textColor="#4A4A4A"
+        android:textStyle="bold"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="160dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/rectangle_3"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="80dp"
+        android:background="#D9D9D9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="310dp"
+        android:background="@color/Skin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="\t\tWrite a title and add a description..."
+            android:textColorHint="#4A4A4A"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="370dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="25dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/eye"
+            android:backgroundTint="@color/Skin" />
+
+        <TextView
+            android:id="@+id/audience"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="25dp"
+            android:text="@string/Audience"
+            android:layout_marginTop="2dp"
+            android:textColor="#4A4A4A"
+            android:textAppearance="@style/audience" />
+
+        <TextView
+            android:id="@+id/followers"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:text="@string/followers"
+            android:textColor="#4A4A4A"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="3dp"
+            android:textAppearance="@style/followers" />
+
+        <ImageView
+            android:id="@+id/arrow_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="400dp"
+        android:padding="10dp">
+
+    <View
+        android:id="@+id/vector_2"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/vector_1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="410dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="25dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/eye"
+            android:backgroundTint="@color/Skin" />
+
+        <TextView
+            android:id="@+id/More_options"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="25dp"
+            android:text="@string/More_options"
+            android:layout_marginTop="2dp"
+            android:textColor="#4A4A4A"
+            android:textAppearance="@style/More_options" />
+
+
+        <ImageView
+            android:id="@+id/arrow_icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_right"
+            android:layout_marginLeft="220dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="500dp"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/group_1"
+            android:layout_width="165dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/select_btn"
+            android:text="Save as draft"
+            android:textColor="#4A4A4A"
+            android:gravity="center"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/group_2"
+            android:layout_width="165dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="40dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/select_btn"
+            android:text="Save"
+            android:textColor="#4A4A4A"
+            android:gravity="center"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

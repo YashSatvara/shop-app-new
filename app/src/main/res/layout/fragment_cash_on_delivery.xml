@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Page Title -->
+        <TextView
+            android:id="@+id/tv_cod_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash on Delivery"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#4A4A4A"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Icon or Illustration -->
+        <ImageView
+            android:id="@+id/img_cod_icon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/cash_on_delivery"
+            android:contentDescription="Cash on Delivery Icon"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Instructions Section -->
+        <TextView
+            android:id="@+id/tv_cod_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please have the exact cash amount ready at the time of delivery. The delivery person will collect payment upon handing over your order."
+            android:textSize="16sp"
+            android:textColor="#4A4A4A"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Address Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/background_card"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/tv_address_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery Address"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tv_delivery_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1234 Street Name, City, State, ZIP"
+                android:textSize="16sp"
+                android:textColor="#4A4A4A"
+                android:lineSpacingExtra="2dp" />
+        </LinearLayout>
+
+        <!-- Confirm Button -->
+        <Button
+            android:id="@+id/btn_cod_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Order"
+            android:backgroundTint="@color/Skin"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</LinearLayout>

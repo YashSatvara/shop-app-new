@@ -1,0 +1,144 @@
+<resources>
+    <string name="shopapp"><u>Shop App</u></string>
+    <string name="gold_shop"><u>GOLD SHOP</u></string>
+
+
+    <string name="skip">Skip</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="get_in_touch">
+                        Get in Touch
+                    </string>
+
+    <string name="https_sonin">
+                        https://soninisarg51.wixsite.com/my-site
+                    </string>
+
+    <string name="sanand_guja">
+                        Sanand, Gujarat 382110,India
+                    </string>
+
+    <string name="where_elega">
+                Where Elegance Shines.
+            </string>
+
+    <string name="social_link">
+                    Social  Links
+                </string>
+
+    <string name="loyalty_pro">
+                    Loyalty Program
+                </string>
+
+    <string name="you_don_t_h">
+                    You dont have any points yet
+                </string>
+
+    <string name="purchase_a_">
+                    Purchase a product  \nGet 10 for every ₹1 spent\n
+                </string>
+
+    <string name="sign_up_to_">
+                    Sign up to the site\nGet 50
+                </string>
+
+
+    <string name="message">
+                        Message
+                    </string>
+
+    <string name="order_a_pla">
+                    Order a plan \nGet 1 for every   ₹1 spent
+                </string>
+
+    <string name="off_all_pro">
+                    10% off all products\n10% points=10% off a specific category
+                </string>
+
+    <string name="my_cart">
+        My Cart
+    </string>
+
+    <string name="cart_is_emp">
+        Cart is empty
+    </string>
+
+    <string name="go_back_to_">
+        Go  back to store
+    </string>
+
+    <string name="notification">
+        Notifications
+    </string>
+
+    <string name="notificatio">
+        Notifications Are Turned Off
+    </string>
+
+    <string name="notificati2">
+        Notifications are currently blocked on your mobile\ndevice.
+    </string>
+
+    <string name="turn_on_pus">
+        Turn on Push Notifications
+    </string>
+
+    <string name="Search">
+        Search Here.....
+    </string>
+
+    <string name="nisarg_soni">
+                Nisarg Soni
+            </string>
+
+    <string name="minutes_ago">
+                2 minutes ago
+            </string>
+
+    <string name="some_id">
+                .
+            </string>
+
+    <string name="min">
+                2 min
+            </string>
+
+    <string name="the_art_of_">
+                The Art of Craftsmanship: Behind the Scenes of Touch of Gold,s Jewelry Production
+            </string>
+
+    <string name="the_art_of_2">
+                The Art of Craftsmanship: Behind the scenes of Touch of Gold,s Jewelry Production At Touch of Gold,we take Pride\nin our commitment to...
+            </string>
+
+    <string name="create_post">
+        Create Post
+    </string>
+
+    <string name="m_r_p_450">
+        M.R.P : 450
+    </string>
+
+    <string name="More_options">
+        More options
+    </string>
+
+    <string name="Audience">
+        Audience
+    </string>
+
+    <string name="followers">
+        Followers
+    </string>
+
+
+    <string name="terms_privacy_text">
+    By signing up, you accept the <b><u>Terms of Service</u></b> and <b><u>Privacy Policy</u></b></string>
+    <string name="app_name">Firebase Google Authentication</string>
+    <string name="client_id">440554349262-bhenms19nmo7qad4b87prug81scqmrpt.apps.googleusercontent.com</string>
+
+</resources>

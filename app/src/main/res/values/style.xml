@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="cirular">
+        <item name="android:background">#40142c</item>
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="get_in_touch">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+    <style name="https_sonin">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+    <style name="sanand_guja">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+    <style name="where_elega">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+    <style name="message">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#E48FA6</item>
+    </style>
+
+    <style name="social_link">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+    <style name="loyalty_pro">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+    <style name="you_don_t_h">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+
+    <style name="purchase_a_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+    <style name="sign_up_to_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+    <style name="order_a_pla">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+    <style name="off_all_pro">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+    <style name="my_cart">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="cart_is_emp">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="go_back_to_">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="notification">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="notificatio">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+    <style name="notificati2">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+    <style name="turn_on_pus">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#E48FA6</item>
+    </style>
+
+    <style name="nisarg_soni">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="minutes_ago">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="some_id">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="min">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="the_art_of_">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="the_art_of_2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="create_post">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#E48FA6</item>
+    </style>
+
+
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColorHint">#FFFFFF</item>
+    </style>
+
+    <style name="m_r_p_450">
+        <item name="android:textSize">12.89sp</item>
+        <item name="android:textColor">#8B8686</item>
+    </style>
+
+    <style name="audience">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="More_options">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="followers">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Material3.FloatingActionButton" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="NoUnderlineEditText">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">#4A4A4A</item>
+    </style>
+
+
+</resources>

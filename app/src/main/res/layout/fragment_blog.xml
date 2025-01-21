@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Skin"
+        android:id="@+id/create_post"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/plus_1"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:backgroundTint="#B87333"
+            android:layout_marginStart="20dp"
+            android:clickable="true"
+            android:background="@drawable/img_24"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginStart="20dp"
+        android:text="@string/create_post"
+        android:textColor="#4A4A4A"
+        android:textAppearance="@style/create_post"
+        android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/viewpost"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

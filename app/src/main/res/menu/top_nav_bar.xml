@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Membership -->
+    <item
+        android:id="@+id/membership"
+        android:title="Membership"
+        app:showAsAction="always"/>
+
+    <!-- Profile Page -->
+    <item
+        android:id="@+id/profile_page"
+        android:icon="@drawable/img_27"
+        android:title="Profile"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    app:cardBackgroundColor="@color/Purple"
+    app:cardCornerRadius="25dp"
+    android:id="@+id/pricplanecardView"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F7B8B5"
+        android:padding="16dp">
+
+        <!-- Subscription Title -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic"
+            android:textColor="#4A4A4A"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <!-- Subscription Description -->
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy this basic subscription plan and get discounts in any single category of gold!"
+            android:textColor="#4A4A4A"
+            android:textSize="13sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹699"
+            android:textStyle="bold"
+            android:textColor="#B87333"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+        <!-- Price and Validity -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/validityTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valid for 1 month"
+                android:textColor="#4A4A4A"
+                android:textSize="12sp"
+                android:layout_marginTop="-20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+
+            <!-- Select Button -->
+            <Button
+                android:id="@+id/selectButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/select_btn"
+                android:backgroundTint="@color/Skin"
+                android:text="Select"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:clickable="true"
+                android:textColor="#4A4A4A"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+

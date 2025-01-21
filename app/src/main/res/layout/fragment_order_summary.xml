@@ -1,0 +1,317 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Order Summary Header -->
+        <TextView
+            android:id="@+id/tv_order_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Summary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"
+            android:textColor="#000000" />
+
+        <!-- Shop Details -->
+        <TextView
+            android:id="@+id/tv_shop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zaverat Jewellers"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_shop_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P. Mankedi Chambers, Tran Rasta, Herion Society, Sanand, Gujarat 382110"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"
+            android:textColor="#666666" />
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="8dp"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/btn_download_invoice"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/bill"
+                android:background="@drawable/invite"
+                android:text="Download Invoice"
+                android:textSize="8sp"
+                android:drawablePadding="6dp"
+                android:paddingHorizontal="4dp" />
+
+            <Button
+                android:id="@+id/btn_reorder"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Reorder"
+                android:drawableLeft="@drawable/reorder"
+                android:background="@drawable/invite"
+                android:textSize="8sp"
+                android:drawablePadding="6dp"
+                android:paddingHorizontal="4dp"
+                android:layout_marginStart="4dp" />
+
+            <Button
+                android:id="@+id/btn_favorite"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Favourite"
+                android:drawableLeft="@drawable/heart_3"
+                android:background="@drawable/invite"
+                android:textSize="8sp"
+                android:drawablePadding="6dp"
+                android:paddingHorizontal="4dp"
+                android:layout_marginStart="4dp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_delivered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivered"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_order_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order ID: ADBGHI72GH"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:paddingBottom="16dp" />
+
+        <!-- Items List -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FAFAFA"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/tv_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gold Necklace"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tv_item_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ordered on 9 January 2025"
+                android:textSize="14sp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textColor="#666666" />
+
+            <TextView
+                android:id="@+id/tv_item_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="₹19,999/-"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <!-- Repeat the above block for other items -->
+        <!-- Price Details -->
+        <TextView
+            android:id="@+id/tv_price_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price Details"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_price_gold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gold Necklace: ₹19,998"
+                android:textSize="14sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/daimond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diamond Necklace   ₹19,998"
+                android:textSize="14sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tv_price_discount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discounts: -₹2,000"
+                android:textSize="14sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/platform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Platform Fee  ₹5"
+                android:textSize="14sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tv_delivery_charges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delivery Charges: Free Delivery"
+                android:textSize="14sp"
+                android:textColor="#008000" />
+
+            <TextView
+                android:id="@+id/tv_total_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total: ₹38,003"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start">
+        <Button
+            android:id="@+id/saving"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Your total saving  ₹2,080"
+            android:background="@drawable/order2"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+        <!-- Delivered Address -->
+        <TextView
+            android:id="@+id/tv_delivered_address_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivered Address"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-108, High Appartments, Nr. HP Petrolpump, Mumbai, Maharashtra-400003"
+            android:textSize="14sp"
+            android:paddingTop="8dp"
+            android:textColor="#666666" />
+
+        <!-- Payment Section -->
+        <TextView
+            android:id="@+id/tv_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/tv_payment_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BHIM UPI"
+            android:textSize="14sp"
+            android:paddingTop="4dp"
+            android:textColor="#666666" />
+
+        <!-- Feedback -->
+        <TextView
+            android:id="@+id/tv_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How's your Jewellery?"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/productrev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write a product review"
+            android:drawableRight="@drawable/greaterthan"
+            android:drawableTint="#FF6B6B"
+            android:paddingTop="16dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create a video review"
+            android:drawableRight="@drawable/greaterthan"
+            android:drawableTint="#FF6B6B"
+            android:paddingTop="16dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/feed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leave jewellary store feedback"
+            android:drawableRight="@drawable/greaterthan"
+            android:drawableTint="#FF6B6B"
+            android:paddingTop="16dp"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn_write_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Need Help?"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#EEEEEE"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+</ScrollView>
